@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="/icone/favicon.ico">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Pokédex</title>
+</head>
+
+<body>
+    <div class="main"> <!--Conteudo main que foi divido em 2 containers principais-->
+        <div class="container-01"><!--Container para o gif do pokemon-->
+            <img class="pokemon--imagem" src="/imagens/pokebola.png"> <!--Imagem da pokebola-->
+        </div>
+
+        <div class="container-02"><!--Container para informaçoe do pokemon e formulário -->
+            <form class="formulario"> <!--Formulário para fazer a pesquisa do pokemon por meio de um número ou nome-->
+                <input type="search" class="input__pesquisa" placeholder="Digite um número ou nome de um pokémon"
+                    required>
+            </form>
+            <div class="infos"> <!--Informações básicas sobre o pokemon-->
+                <h1 class="pokemon-infos">
+                    <span class="pokemom--numero">Número</span> - <!--Número do pokemon-->
+                    <span class="pokemom--nome">Nome</span> <!--Nome do pokemon-->
+                </h1>
+            </div>
+            <div class="estatisticas"> <!--Estatisticas em número (tipo, vida, ataque e defesa)-->
+                <h3 class="pokemon--estatisiticas">
+                    <ul class="lista--pokemon--estatisticas">
+                        <li class="">
+                            <span class="tipo">Tipo</span>
+                            <span class="tipo--valor">?</span>
+                        </li>
+                        <li class="">
+                            <span class="vida">Vida</span>
+                            <span class="vida--valor">?</span>
+                        </li>
+                        <li class="">
+                            <span class="ataque">Ataque</span>
+                            <span class="ataque--valor">?</span>
+                        </li>
+                        <li class="">
+                            <span class="defesa">Defesa</span>
+                            <span class="defesa--valor">?</span>
+                        </li>
+                    </ul>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <script src="/js/javascript.js"></script> <!--Arquivo js-->
+</body>
+
+</html>
